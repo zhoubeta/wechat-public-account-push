@@ -31,7 +31,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "周beta",
+      name: "猪猪女孩",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oxtNB56WCbbGiS52uAIO9aQ2lp2k",
       // 你想对他发送的模板消息的模板ID
@@ -107,7 +107,7 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "老婆", "year": "1997", "date": "10-05"},
-//     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
 //     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
 //     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
@@ -127,11 +127,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
+//     {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+//     {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+//     {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
@@ -145,7 +145,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+//     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
