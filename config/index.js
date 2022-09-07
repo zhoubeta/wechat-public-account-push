@@ -106,7 +106,7 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1997", "date": "10-05"},
+    {"type": "生日", "name": "阿宝", "year": "1997", "date": "10-05"},
     {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
 //     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
 //     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
@@ -145,7 +145,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-//     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
@@ -159,7 +159,7 @@ export const config = {
 
   // 好文节选的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: ""
+  LITERARY_PREFERENCE: "动画"
 
 
 }
