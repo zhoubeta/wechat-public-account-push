@@ -125,7 +125,7 @@ export const config = {
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
-//   CUSTOMIZED_DATE_LIST: [
+  CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
 //     {"keyword": "love_day", date: "2015-05-01"},
     // 结婚纪念日
@@ -135,7 +135,7 @@ export const config = {
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
-//   ],
+  ],
 
   /** 插槽 */
 
