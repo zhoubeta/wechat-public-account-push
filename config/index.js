@@ -33,7 +33,7 @@ export const config = {
       // 想要发送的人的名字
       name: "猪猪女孩",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oxtNB56WCbbGiS52uAIO9aQ2lp2k",
+      id: "oxtNB57Ep-4yS0Rbky7ocIw052CI",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "7ogGj_3-u3SO3Zl1kVhO3Akr8bBe8Pe62lUKiEZGbDg",
       // 所在省份
@@ -107,7 +107,7 @@ export const config = {
    */
   FESTIVALS: [
     {"type": "生日", "name": "阿宝", "year": "1997", "date": "10-05"},
-    {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
+    {"type": "节日", "name": "圣诞节", "year": "2022", "date": "12-25"},
 //     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
 //     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
